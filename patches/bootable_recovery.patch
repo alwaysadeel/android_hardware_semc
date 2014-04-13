@@ -21,7 +21,7 @@ index 661a103..952fc6e 100644
 +ifeq ($(TARGET_PRODUCT),cm_lotus)
 +  LOCAL_CFLAGS += -DXPERIA_GO
 +endif
-+ifeq ($(TARGET_PRODUCT),cm_pepper)
++ifeq ($(TARGET_PRODUCT),carbon_pepper)
 +  LOCAL_CFLAGS += -DXPERIA_SOLA
 +endif
 +ifeq ($(TARGET_PRODUCT),cm_kumquat)
